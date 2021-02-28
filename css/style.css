@@ -1,0 +1,96 @@
+/* Font awesome */
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,700;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500;700;900&display=swap');
+/* GENERAL STYLE*/
+body{
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px; 
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+.section{
+    background-color:#f2f2fc;
+    min-height: 100vh;
+    display: block;
+}
+.main-content{
+    padding-left: 270px;
+}
+::before,::after{
+    box-sizing: border-box;
+}
+/* ASIDE*/
+.aside{
+    width:270px ;
+    position: fixed;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    border-right: 1px solid #e8dfec;
+    padding: 30px;
+}
+.aside .logo{
+ padding: 30px;
+}
+.aside .nav{
+    background-color: #ededed;
+    list-style: none;
+    margin: 80px 0;
+    padding: 0;
+
+}
+.aside .nav li{
+    display: block;
+
+}
+
+.aside .nav li a{
+    font-size: 16px;
+    font-weight: 600;
+
+}
+.aside .logo a{
+    font-size: 40px;
+    font-family: 'Rubik', sans-serif;
+    display: inline-block;
+    padding: 0 10px;
+    color:#302e4d;
+    font-weight: 700;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    line-height: 50px;
+}
+.aside .logo a::before{
+    content: '';
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.aside .logo a::after{
+    content: '';
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.aside .copyright{
+     background-color: #ededed;
+
+}

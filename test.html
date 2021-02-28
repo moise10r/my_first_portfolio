@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styleSwitcher.css" type="text/css">
+    <link rel="stylesheet" href="css/style2.css" type="text/css">
+    <link rel="stylesheet" href="css/skins/pink.css" type="text/css">
+      <!-- changing color -->
+      <link rel="stylesheet" class="alternate-style" title="pink" href="css/skins/pink.css" type="text/css" disabled>
+      <link rel="stylesheet" class="alternate-style" title="blue" href="css/skins/blue.css" type="text/css" disabled>
+      <link rel="stylesheet" class="alternate-style" title="green" href="css/skins/green.css" type="text/css" disabled>
+      <link rel="stylesheet" class="alternate-style" title="orange" href="css/skins/orange.css" type="text/css" disabled>
+      <link rel="stylesheet" class="alternate-style" title="yellow" href="css/skins/yellow.css" type="text/css" disabled>
+      <link rel="stylesheet" class="alternate-style" title="red" href="css/skins/red.css" type="text/css" disabled>
+  
+    <title>Document</title>
+
+</head>
+
+<body>
+    <div class="style-switcher">
+        <div class="toggle-style-switcher">
+          <i class="fa fa-cog fa-spin"></i>
+        </div>
+    <h5>Style Switcher</h5>
+    <ul>
+      <li><a href="javascript:void(0)" title="pink" style=" background-color:#51be78;" onclick="setAtiveStyle('pink')"></a></li>
+      <li><a href="javascript:void(0)" title="blue" style=" background-color:#2196f3;" onclick="setAtiveStyle('blue')"></a></li>
+      <li><a href="javascript:void(0)" title="red" style=" background-color:#ec1839;" onclick="setAtiveStyle('red')"></a></li>
+      <li><a href="javascript:void(0)" title="orange" style=" background-color:#ffb400;" onclick="setAtiveStyle('yellow')"></a></li>
+      <li><a href="javascript:void(0)" title="green" style=" background-color:#72b626;;" onclick="setAtiveStyle('green')"></a></li>
+      
+    </ul>
+    <h5>Body Skin</h5>
+    <label ><input type="text" name="" id=""> Light</label>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="js/styleSwitcher.js"></script>   
+</body>
+
+</html>
